@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testData>
+	 <tests>  	
+	 	<priceFrom>5000</priceFrom>
+	 	<priceTo>10000</priceTo>
+	 	<type>смартфон/коммуникатор</type>
+	 	<platform>Android</platform>
+	 </tests>
+	 <tests>
+	 	<priceFrom>30000</priceFrom>
+	 	<priceTo>60000</priceTo>
+	 	<type>смартфон/коммуникатор</type>
+	 	<platform>iOS</platform>
+	 </tests>   
+	 <tests>
+	 	<priceFrom>1000</priceFrom>
+	 	<priceTo>9000</priceTo>
+	 	<type>смартфон/коммуникатор</type>
+	 	<platform>Asha</platform>
+	 </tests>
+ </testData>

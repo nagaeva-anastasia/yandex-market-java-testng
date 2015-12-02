@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="SuiteChildData">
+	<test name="apple">		 
+		<parameter name="priceFrom" value="30000"/>
+ 		<parameter name="priceTo" value="60000"/>
+ 		<parameter name="type" value="смартфон/коммуникатор"/>
+ 		<parameter name="platform" value="iOS"/>		
+ 		<classes>
+ 			<class name="seleniumTestSeparatedXML.FilterPhoneByPricePlatformType5" />
+    	</classes>		
+ 	</test> 	 	
+ 	<test name="android">		 
+		<parameter name="priceFrom" value="1000"/>
+ 		<parameter name="priceTo" value="5000"/>
+ 		<parameter name="type" value="смартфон/коммуникатор"/>
+ 		<parameter name="platform" value="Android"/>
+ 		<classes>
+       		<class name="seleniumTestSeparatedXML.FilterPhoneByPricePlatformType5" />
+    	</classes>						
+ 	</test>
+ 	<test name="asha">		 
+		<parameter name="priceFrom" value="1000"/>
+ 		<parameter name="priceTo" value="5000"/>
+ 		<parameter name="type" value="смартфон/коммуникатор"/>
+ 		<parameter name="platform" value="Asha"/>
+ 		<classes>
+       		<class name="seleniumTestSeparatedXML.FilterPhoneByPricePlatformType5" />
+    	</classes>						
+ 	</test> 	 	
+</suite>
